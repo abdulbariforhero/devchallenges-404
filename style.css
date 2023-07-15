@@ -76,3 +76,25 @@ footer small {
 
 }
 
+/* for small devices */
+
+@media screen and (max-width:576px) {
+
+    .main, .content-container-text {
+        flex-direction: column;
+    }
+
+
+    .image {
+        margin-right: none;
+        width: 286px;
+        height: 220px;
+        flex-shrink: 0;
+    }
+    .content-container-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
